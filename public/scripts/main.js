@@ -15,3 +15,5 @@ import ReactDOM from 'react-dom';
 import BlogPostList from './components/BlogPostList';
 
 ReactDOM.render(<BlogPostList />, document.querySelector('main'));
+
+console.log('potato');
