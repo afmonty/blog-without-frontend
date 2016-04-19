@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Post from './../collections/PostCollection';
-import 
+
 
 
 const BlogList = React.createClass({
@@ -27,7 +27,7 @@ const BlogList = React.createClass({
     		return <div className = "post-preview-container">
     					 title={val.get('title')} 
 	    				 body={val.get('body')}
-	    				 author={val.get('author[firstName]')}
+	    				 author={val.get('author[vfirstName]')}
 	    				createdAt={val.get('createdAt')} 
 	    				</div>;
 		});

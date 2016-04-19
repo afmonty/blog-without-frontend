@@ -1,5 +1,5 @@
 import Backbone from 'backbone';
-import PostModel from '../models/jobs.js';
+import PostModel from '../models/PostModel.js';
 
 const PostCollection = Backbone.Collection.extend({
 	model: PostModel,
